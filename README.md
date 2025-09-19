@@ -1,4 +1,4 @@
-<img width="2048" height="1024" alt="image" src="https://github.com/user-attachments/assets/7639870e-2862-4712-b8db-6f124d94cfe7" /># Matrix32x16
+# Matrix32x16
 
 秋月電子で販売していた32x16ドットマトリクスLEDのRaspberry Pi Pico用ライブラリです。
 
