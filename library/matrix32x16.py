@@ -10,7 +10,7 @@ half_chars = set("!\"#$%&'()*+,-./"
                 "[\\]^_`"
                 "abcdefghijklmnopqrstuvwxyz"
                 "{|}~"
-                "ｧｱｨｲｩｳｪｴｫｵｶｷｸｹｺｻｼｽｾｿﾀﾁｯﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓｬﾔｭﾕｮﾖﾗﾘﾙﾚﾛﾜｦﾝﾞﾟ")
+                "ｧｱｨｲｩｳｪｴｫｵｶｷｸｹｺｻｼｽｾｿﾀﾁｯﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓｬﾔｭﾕｮﾖﾗﾘﾙﾚﾛﾜｦﾝﾞﾟｰ")
 class Matrix32x16:
     def __init__(self, sin1=11, sin2=12, sin3=13, clk=14, latch=15):
         self.SIN1 = Pin(sin1, Pin.OUT)
