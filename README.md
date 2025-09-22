@@ -18,7 +18,7 @@
 
 ### 2. 配線
 LEDマトリクス側のピン配列は以下の通りです。  
-<img src="https://github.com/gori-unity/Matrix32x16/blob/lite-version/Image/MatrixPin.png" width="600">  
+<img src="https://raw.githubusercontent.com/gori-GORILLA-gori/Matrix32x16/refs/heads/main/Image/MatrixPin.png" width="600">  
 
 ### 3. Pythonコードに記述
 
@@ -32,7 +32,7 @@ m = Matrix32x16(sin1=任意のピン, sin2=任意のピン, sin3=任意のピン
 ```
 ## 仕様
 - 座標は左上から右下にかけて増えていきます
-<img src="https://github.com/gori-unity/Matrix32x16/blob/main/Image/matrixVector2.png" width="600">
+<img src="https://raw.githubusercontent.com/gori-GORILLA-gori/Matrix32x16/refs/heads/main/Image/matrixVector2.png" width="600">
 
 - すべて`pattern`変数に描画内容を設定し、最後に`show()`で表示します
 
@@ -111,19 +111,19 @@ exeファイルですのでMacやLinuxでの動作は想定していません
 ### `32x16pngToHex.exe`使用方法  
 
 - 初回起動時は**WindowsによってPCが保護されました**などと出る可能性があります。  
-  <img src="https://github.com/gori-unity/Matrix32x16/blob/main/Image/Difender.png" width="300">    
+  <img src="https://raw.githubusercontent.com/gori-GORILLA-gori/Matrix32x16/refs/heads/main/Image/Difender.png" width="300">    
   その場合は<ins>`詳細情報`</ins>をクリックして`実行`をクリックすると起動できます。
   
 1. 画像ファイルの指定  
    画像ファイルのパスを打ち込むか`参照...`ボタンを押して変換したい画像を選択してください  
-   ![アプリ画面](https://github.com/gori-unity/Matrix32x16/blob/main/Image/32x16pngToHex_Main.png)
+   ![アプリ画面](https://raw.githubusercontent.com/gori-GORILLA-gori/Matrix32x16/refs/heads/main/Image/32x16pngToHex_Main.png)
 
 2. 保存先の指定
    開いたウィンドウで保存先を指定してください
-   ![save](https://github.com/gori-unity/Matrix32x16/blob/main/Image/Save.png)
+   ![save](https://raw.githubusercontent.com/gori-GORILLA-gori/Matrix32x16/refs/heads/main/Image/Save.png)
    
 4. 成功というウィンドウが出たら保存完了  
-   ![success](https://github.com/gori-unity/Matrix32x16/blob/main/Image/success.png)
+   ![success](https://raw.githubusercontent.com/gori-GORILLA-gori/Matrix32x16/refs/heads/main/Image/success.png)
 ### `32x16pngToHex.py`について  
 `32x16pngToHex.py`は`32x16pngToHex.exe`の元となっているPythonコードです。  
 現在は主にWindows上での動作を想定していますが、MacやLinuxの環境でも使用できるように修正することで動作する可能性があります。  
