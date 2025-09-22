@@ -19,7 +19,9 @@ class Matrix32x16:
         self.CLOCK = Pin(clk, Pin.OUT)
         self.LATCH = Pin(latch, Pin.OUT)
         #辞書を統合
-        self.font_data = dict()
+        self.font_data = {
+            "63": [0, 64, 160, 32, 64, 0, 64]  # ?
+        }
 
         # 初期化
         for pin in [self.SIN1, self.SIN2, self.SIN3, self.CLOCK, self.LATCH]:
